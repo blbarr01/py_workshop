@@ -1,0 +1,79 @@
+python: or how i learned to stop worrying and love the snake 
+
+introduce origins of the language 
+	guido von rossen 
+	lex friedman interview 55:00 - 57:00 
+	https://www.youtube.com/watch?v=ghwaIiE3Nd8
+		ABC
+		somewhere between C and Shell 
+	 
+language characteristics 
+	-interpreted 
+	- dynamic typing 
+	-multi-paradigm 
+		- procedural
+		- oop
+		- functional 
+
+common uses of python
+	- machine learning, deep learning, AI 
+	- data science  
+	- web development
+	- sysadmin scripting 
+	- embbeded systems 
+
+common 3rd party libraries 
+	numpy and pandas - data manipulation
+	tensorflow 
+	django
+
+using the repl 
+	*demoing the repl an allow the presentor to show 
+	how to instantiate varaibles 
+	
+python primatives 
+	str
+	int float complex
+	bool 
+	
+python collections 
+	lists 
+	dictionaries
+	tuples 
+	sets  
+
+list operations
+	sort
+	slice syntax 
+
+oop overview
+	defining classes
+		__init__ function
+		self keyword
+	inheritance 
+magic methods 
+	__main__ 
+	__gt__
+	__lt__ 
+
+loops 
+	for 
+	while 
+
+comparisons 
+	opeartors: ==, < , > , !
+	keywords: is, or, not, and 
+
+common 3rd party libraries 
+	numpy and pandas - data manipulation
+	tensorflow 
+	django
+
+code comparision - C v Python  
+	insertion sort
+	parsing a text file 
+	matrix multiplication 
+		performance comparison 
+	sockets (maybe) 
+	*parsing text files and sockets give a good example of context managers and the with keyword  
+	
