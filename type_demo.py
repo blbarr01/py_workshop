@@ -5,16 +5,15 @@ b = 2.4
 big = 3.145e5
 small = 3.14e-7
 comp = 3+1j
-
+is_complete = True
 
 print(a, type(a))
 print(b, type(b))
 print(comp, type(comp))
 print(big, type(big))
 print(small, type(small))
-
+print(is_complete, type(is_complete))
 
 #string types
 text = "hello world" 
-print(text)
-print(type(text))
+print(text, type(text))
