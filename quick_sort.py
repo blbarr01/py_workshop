@@ -1,5 +1,6 @@
 from random import randrange
 from typing import List 
+import sys
 
 
 #the most elegant implementaion of quicksort i've seen 
@@ -12,7 +13,8 @@ def quick_sort(arr:List[int])->List[int]:
             + quick_sort([x for x in arr[1:] if x >= arr[0]])
 
 if __name__ == '__main__':
-    arr = [randrange(25) for x in range(12)]
+    n = int(sys.argv[1]) if len(sys.argv) > 1 else 12
+    arr = [randrange(25) for x in range(n)]
     print(arr)
     s = quick_sort(arr)
     print(s)
